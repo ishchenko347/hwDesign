@@ -190,4 +190,16 @@ footer {
 
 h3 {
   padding-bottom: 64px;
+}
+
+.education__block {
+  flex-direction: column;
+  gap: 0px;
+}
+.education__left img {
+  height: 64px;
+}
+.education__logo-text {
+  visibility: hidden;
+  padding-top: 0;
 }/*# sourceMappingURL=style.css.map */
