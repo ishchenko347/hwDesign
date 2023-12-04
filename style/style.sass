@@ -1,4 +1,4 @@
-@import _vars
+@import vars
 
 *
     margin: 0
@@ -13,6 +13,7 @@ img
 body
     font-family: "Cormorant Garamond", serif
     color: $colorText
+    font-variant-numeric: lining-nums
 
 .center
     padding-left: calc(50% - $widthSite / 2)
@@ -21,6 +22,7 @@ body
 .top
     background-image: url('../img/bg.jpg')
     background-size: cover
+    background-position: center
     &__links
         background-color: $colorHeader
         padding-top: 24px
@@ -29,14 +31,13 @@ body
         display: flex
         justify-content: flex-start
         gap: 32px
-
     &__link
         font-size: 20px
         font-weight: 700
         line-height: 28px
         color: $colorText
     &__left
-        padding-top: 72px
+        padding-top: 92px
         padding-bottom: 152px
     &__textBlock
         width: 470px
@@ -88,11 +89,10 @@ p
         flex-direction: column
         gap: $gapText
 
-.wrapper
-    display: flex
-    justify-content: center
-    &__slide
-        width: 896px
+.carousel-indicators
+    margin-bottom: -2rem
+.carousel-indicators [data-bs-target]
+    background-color: #444141
 
 .education
     background-color: #F4F4F4
@@ -130,7 +130,6 @@ p
         font-weight: 500
         line-height: 32px
         color: #1F191D
-        font-variant-numeric: lining-nums
 
 footer
     background-color: $colorDark
@@ -140,5 +139,5 @@ footer
     justify-content: center
     gap: $gapIcon
 
-@import _m1024
-@import _m768
+@import m1024
+@import m767
