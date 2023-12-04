@@ -202,4 +202,24 @@ h3 {
 .education__logo-text {
   visibility: hidden;
   padding-top: 0;
+}
+
+.center {
+  padding-left: calc(50% - 320px);
+  padding-right: calc(50% - 320px);
+}
+
+.top__left {
+  padding-top: 52px;
+  padding-bottom: 72px;
+}
+.top__textBlock {
+  width: 290px;
+}
+.top__title {
+  font-size: 48px;
+  padding-bottom: 24px;
+}
+.top__name {
+  font-size: 32px;
 }/*# sourceMappingURL=style.css.map */
