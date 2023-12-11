@@ -42,6 +42,10 @@ body {
   line-height: 28px;
   color: #1F191D;
 }
+.top__link:hover {
+  color: #c9c9c9;
+  transition: all 1s;
+}
 .top__left {
   padding-top: 92px;
   padding-bottom: 152px;
