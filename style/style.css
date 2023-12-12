@@ -43,7 +43,7 @@ body {
   color: #1F191D;
 }
 .top__link:hover {
-  color: #c9c9c9;
+  color: #ffffff;
   transition: all 1s;
 }
 .top__left {
@@ -271,6 +271,7 @@ footer {
   .education__li {
     font-size: 16px;
     line-height: 130%;
+    margin-left: 0;
   }
   .contacts__link {
     font-size: 20px;
